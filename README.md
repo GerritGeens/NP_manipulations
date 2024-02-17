@@ -37,7 +37,7 @@
 5. Start jupyter notebook and open the code file `
    
    ```js
-   jupyter notebook --notebook-dir * %rootfolder%* \code
+   jupyter notebook --notebook-dir %rootfolder%\code
    open the opdracht.ipynb notebook
    ```
 
