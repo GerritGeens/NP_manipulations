@@ -22,7 +22,7 @@
 1. Clone the repo
 
 2. ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/GerritGeens/NP_manipulations.git
    ```
 
 3. Open an anaconda powershell en go the root folder of this project 
@@ -37,9 +37,16 @@
 5. Start jupyter notebook and open the code file `
    
    ```js
-   jupyter notebook --notebook-dir <i>%rootfolder%\code
+   jupyter notebook --notebook-dir *%rootfolder%*\code open
    open the opdracht.ipynb notebook
    ```
+
+   alternatively
+
+   ```js
+   jupyter notebook --notebook-dir *%rootfolder%*\code open
+   open the opdracht.ipynb notebook
+   ```   
 
 ## Note
 
