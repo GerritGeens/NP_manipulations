@@ -37,20 +37,13 @@
 5. Start jupyter notebook and open the code file `
    
    ```js
-   jupyter notebook --notebook-dir *%rootfolder%*\code open
+   jupyter notebook --notebook-dir *%rootfolder%*\code
    open the opdracht.ipynb notebook
    ```
 
-   alternatively
-
-   ```js
-   jupyter notebook --notebook-dir *%rootfolder%*\code open
-   open the opdracht.ipynb notebook
-   ```   
-
 ## Note
 
-You can try different pictures, but this program only works with pictures with a white background
+You can try different pictures, but they should have a white background
 
 ## Contact
 
