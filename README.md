@@ -7,7 +7,7 @@
 - The project is about   
   
   - handling images using only numpy arrays  
-  - documenting and setting up a git repository and a ??? environment 
+  - documenting and setting up a git repository and an environment in which to run the code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
