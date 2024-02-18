@@ -54,9 +54,18 @@ def verkleur (image, KLEUR) :
     """
 
     np_image_temp = image.copy()
-    channel = np_image_temp[:, :, vertaal_letter_in_kleur(KLEUR)] #(points to the right RGB channel)
-    channel[:] = 255  # Modify the channel values : set to the maximum
 
+    #put a mask on 'everything that is not background', background is top left corner 
+    #disadvantage = if color of background is repeated (much) in the main image, this does not get the recolourisation 
+
+    mask = abs(np_image_temp[:,:] - np_image_temp[5,5] ) >= 15   
+
+    # Apply boolean indexing to select elements where the mask is True and change these pixels
+    indices = np.argwhere(mask)
+    for index in indices : 
+        np_image_temp[index[0]][index[1]][vertaal_letter_in_kleur(KLEUR)] = 255
+
+ 
     return np_image_temp
 
 
