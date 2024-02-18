@@ -11,12 +11,6 @@
   - documenting and setting up a git repository and an environment in which to run the code
   
   - The following functions are used and documented in the 'tekenfuncties2' package
-    
-    - verkleur (changes the color of a picture)
-    - grid with flips (makes a grid with certain versions of the original image)
-    - create_colorful_big_one (makes a grid with certain colored versions of the original image)
-    - zoom_image (zooms)
-    - rotate_image (rotates the image over an angle)
   
   - In the opdracht notebook you will find the function calls + the application on an example image
   
@@ -53,6 +47,80 @@
    jupyter notebook --notebook-dir %rootfolder%\code
    open the opdracht.ipynb notebook
    ```
+
+## Different functions
+
+**show_image** 
+
+shows an image using matplotlib
+
+- image: the image to show 
+
+<br>
+
+**verkleur (image, KLEUR)** 
+
+changes the color of the image (not changing the background color)
+
+- image: the image to change
+- KLEUR: the color into which the image has to change (use "R" "G" "B")
+
+<br>
+
+
+**resize_image(image, new_width, new_height)**
+
+returns a resized image
+
+- image: the image to resize 
+- new_width, new_heigth: the widht and heigt to change to 
+
+<br>
+
+**zoom_image (original_image, zoom_point, zoom_factor)**
+
+returns a zoomed image 
+
+- original_image: the image to resize 
+- zoom_factor: number describing the zoom factor
+
+<br>
+
+**flip_image (image, direction)**
+
+returns a flipped image 
+
+- image: the image to resize 
+- direction: an integer describing the orientation of the flip:
+  - 0 for the image not flipped, 
+  - 1 for flipping your image left right, 
+  - 2 for flipping it upside down 
+  - 3 for flipping it both left right and upside down
+
+<br>
+
+**create_colorful_big_one(image, colors)**
+
+returns an image with different subimages (colored versions wrapped around a bigger centered one), described by 'colors'
+
+- image: the basic image
+- a list describing what the different colors should be, the size of the list must be a multiple of 4 
+
+<br>
+
+
+**rotate_image(image, angle)**
+
+returns a rotated version of the image 
+
+- image: the image to rotate
+- angle: the rotation angles, in degrees where 90 is rotation to the right 
+
+
+
+
+
+
 
 ## Note
 

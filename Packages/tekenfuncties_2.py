@@ -57,7 +57,6 @@ def verkleur (image, KLEUR) :
 
     #put a mask on 'everything that is not background', background is top left corner 
     #disadvantage = if color of background is repeated (much) in the main image, this does not get the recolourisation 
-
     mask = abs(np_image_temp[:,:] - np_image_temp[5,5] ) >= 15   
 
     # Apply boolean indexing to select elements where the mask is True and change these pixels
