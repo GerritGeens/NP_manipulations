@@ -7,16 +7,20 @@
 - The project is about   
   
   - handling images using only numpy arrays  
+  
   - documenting and setting up a git repository and an environment in which to run the code
-
+  
   - The following functions are used and documented in the 'tekenfuncties2' package
-      - verkleur (changes the color of a picture)
-      - grid with flips (makes a grid with certain versions of the original image)
-      - create_colorful_big_one (makes a grid with certain colored versions of the original image)
-      - zoom_image (zooms)
-      - rotate_image (rotates the image over an angle)
+    
+    - verkleur (changes the color of a picture)
+    - grid with flips (makes a grid with certain versions of the original image)
+    - create_colorful_big_one (makes a grid with certain colored versions of the original image)
+    - zoom_image (zooms)
+    - rotate_image (rotates the image over an angle)
+  
   - In the opdracht notebook you will find the function calls + the application on an example image
-  - In the input directory you find another image for demonstration purposes 
+  
+  - In the input directory you find some images for demonstration purposes 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
