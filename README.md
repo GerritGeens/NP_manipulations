@@ -52,7 +52,7 @@
 
 ## Note
 
-You can try different pictures, but they should have a white background
+You can try different pictures, the best result is with pictures with a smooth background (eg white), that is not repeated (much) in the picture itself
 
 ## Contact
 
