@@ -9,7 +9,7 @@
   - handling images using only numpy arrays  
   - documenting and setting up a git repository and an environment in which to run the code
 
-  - The following functions are used en documented in the 'tekenfuncties2' package
+  - The following functions are used and documented in the 'tekenfuncties2' package
       - verkleur (changes the color of a picture)
       - grid with flips (makes a grid with certain versions of the original image)
       - create_colorful_big_one (makes a grid with certain colored versions of the original image)
